@@ -1,19 +1,15 @@
 <!doctype html>
 <head>
-		
-		<!-- all css here -->
-
-        <link rel="stylesheet" href="home/style.css">
-
+    
+    <link rel="stylesheet" href="home/style.css">
+    <script src="https://kit.fontawesome.com/21e3e3826b.js" crossorigin="anonymous"></script>
 
     </head>
     <body>
-<header>
-	<!-- header start -->
-		<div>
-            <div class="row-one">
-                <div class="col d-lg-block d-md-none d-sm-none d-none">
-                    <div class="main-menu">
+        <header>
+            <div class= "header-area">
+                <div class="row-one">
+                    <div class="col-main-menu">
                         <ul>
                             <li><a>home</a></li>
                             <li><a>about</a></li>
@@ -22,28 +18,28 @@
                             <li><a>contact</a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="col col-md-auto">
-                    <div class="logo">
-                        <img alt="Logo SabujCha" src="home/imgs/logo.png">
+                    <div class="col-logo">
+                        <div class="logo">
+                            <img class="img-logo" alt="Logo SabujCha" src="home/imgs/logo.png">
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="header-left-button">
-                        <div class="header-currency">
-                            <span>USD</span>
+                    <div class="col-pay">
+                        <div class="header-left-button">
+                            <div class="header-currency">
+                                <span>USD</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <i class="fa-solid fa-cart-shopping cart"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</header>
-			<!-- header end -->
+        </header>
+			<!-- Fin Header-->
 			<!-- Inicio Banner Principal -->
 			<div class="">
                 <div class="banner-principal" style="background-image:url(home/imgs/slider-2.jpg);" alt="Banner té matcha en polvo">
-                    <div class="text-center">
+                    <div class="text-center-one">
                         <h1>Want to stay healthy</h1>
                         <h1>drink matcha.</h1>
                         <div><h5>Shop Now</h5></div>
@@ -287,14 +283,27 @@
                 </div>
             </div>
 			<!-- Fin "New Products" -->
+            <!-- Inicio Suscripción -->
+			<div class="newsletter-area bg-image-2">
+				<div class="container">
+                    <div class="section-title-wrap text-center">
+                        <h3 class="section-title">Join to our Newsletter</h3>
+                    </div>
+                    <div class="form-suscribe">
+                        <input type="text" class="input-suscribe" placeholder="Your Email Address*">
+                        <button class="btn-suscribe">SUSCRIBE</button>
+                    </div>
+                </div>
+			</div>
+            <!-- Fin Suscripción -->
             <!-- Inicio Noticias -->
 			<div class="blog-area bg-image-1">
-				<div class="container">
+				<div class="container-blog">
                     <div class="section-title-wrap text-center">
                         <h3 class="section-title">Latest News</h3>
                     </div>
                 </div>
-				<div class="container">
+				<div class="container-blog">
 					<div class="row-three">
                         <div class="blog-post">
                             <div class="blog-thumb">
@@ -336,7 +345,7 @@
             <!-- Inicio Marcas -->
 			<div class="brand-logo-area">
 				<div class="container">
-                    <div class="row-three">
+                    <div class="row-five">
 						<div class="single-brand-logo">
 							<img alt="Logo Oceandor" src="home/imgs/1.jpg">
 						</div>
@@ -356,11 +365,11 @@
 				</div>
 			</div>
 			<!-- Fin Marcas -->
-            <!-- Footer style Start -->
+            <!-- Inicio Footer -->
 			<footer class="footer-area gray-bg-3">
                 <div class="container">
-                    <div class="row-three">
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="row-six">
+                        <div class="col-footer">
                             <div class="footer-title">
                                 <h4>My Account</h4>
                             </div>
@@ -375,7 +384,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-footer">
                             <div class="footer-title">
                                 <h4>Information</h4>
                             </div>
@@ -390,7 +399,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-footer">
                             <div class="footer-title">
                                 <h4>Quick Links</h4>
                             </div>
@@ -405,7 +414,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-footer">
                             <div class="footer-title">
                                 <h4>Contact Us</h4>
                             </div>
@@ -429,7 +438,7 @@
                 </div>
             </div>
             <div class="footer-bottom gray-bg-2">
-                <div class="container">
+                <div class="container-footer">
                     <div class="row-four">
                         <div class="col-md-6">
                             <div class="copyright">
@@ -444,7 +453,8 @@
                     </div>
 				</div>
 			</footer>
-			<!-- Footer style End -->
+			<!-- Fin Footer -->
+
     </body>
 </html>
 
