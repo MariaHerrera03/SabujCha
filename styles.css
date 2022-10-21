@@ -146,16 +146,15 @@ p {
     justify-content: center;
     gap: 5%;
 }
-.row-seven {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5%;
-}
 .product-wrapper {
     width: 17%;
     margin-right: 30px;
     margin-left: 30px;
+}.row-correct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
 }
 @media (max-width: 800px) {
     .container-two {
