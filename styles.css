@@ -144,6 +144,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 5%;
 }
 .product-wrapper {
     width: 17%;
@@ -233,7 +234,7 @@ span.blog-date {
         margin: 0 auto;
     }
     .blog-img {
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
     .blog-thumb {
@@ -430,7 +431,6 @@ span.blog-date {
     font-weight: 600;
     }
 }
-
 .col-main-menu ul li {
     display: inline-block;
     list-style: outside none none;
@@ -613,31 +613,9 @@ span.blog-date {
 .descripcion-producto{
     margin-top: 10%;
 }
-.title-producto{
-    font-family: var(--titulo);
-    font-size: 30px;
-}
-.precio-producto{
-    font-family: var(--titulo_producto);
-    font-size: 15px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-weight: 500;
-}
 .price-tachado{
     color: var(--tipografia_gris);
     text-decoration:line-through;
-}
-.text-producto{
-    font-family: var(--titulo);
-    font-size: 15px;
-    margin-right: 1%;
-    margin-bottom: 3%;
-}
-.size{
-    font-family: var(--titulo);
-    margin-bottom: 1%;
-    font-weight: 400;
 }
 .select-product{
     width: 60px;
@@ -650,7 +628,6 @@ span.blog-date {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
 .color{
-    font-family: var(--titulo);
     margin-bottom: 1%;
     font-weight: 400;
 }
@@ -686,7 +663,6 @@ span.blog-date {
     height: 30px;
     border: 1px solid gray;
     background: transparent;
-    font-family: var(--texto);
     text-align: center;
 }
 .btn-product{
@@ -697,14 +673,12 @@ span.blog-date {
     border: none;
     background-color: black;
     color: white;
-    font-family: var(--texto);
     font-weight: 600;
     cursor: pointer;
 }
 .stock{
     margin-top: 5%;
-    font-family: var(--texto);
-    color: var(--tipografia_gris);
+    color: #484848;
 }
 @media (max-width: 800px){
     .modalmask {
@@ -712,8 +686,8 @@ span.blog-date {
     }
 }
 .descripcion-producto > p {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 20px;
 }
 .single-testimonial > p {
     color: #4b4747;
