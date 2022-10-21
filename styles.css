@@ -51,7 +51,6 @@ ul {
     padding: 0px;
 }
 a {
-    font-size: 16px;
     text-decoration: none;
 }
 p {
@@ -138,7 +137,8 @@ p {
 }
 .container-two {
     padding: 90px 15px 70px 15px;
-    margin: 0 auto;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 .row-three {
     display: flex;
@@ -149,11 +149,6 @@ p {
     width: 17%;
     margin-right: 30px;
     margin-left: 30px;
-}.row-correct {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5%;
 }
 @media (max-width: 800px) {
     .container-two {
@@ -182,20 +177,27 @@ p {
     justify-content: space-between;
     align-content: center;
 }
+
 .blog-area{
     position: relative;
     padding: 90px 15px 90px 15px;
 }
 .container-blog {
-    width: 90%;
+    width: 100%;
     padding: 0px 15px 0px 15px;
     margin-right: auto;
     margin-left: auto;
 }
+.row-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
 .blog-post{
-    width: 200px;
-    margin-right: 40px;
-    margin-left: 40px;
+    width: 280px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 span.blog-date {
     color: #519f10;
@@ -435,6 +437,7 @@ span.blog-date {
     font-weight: 600;
     }
 }
+
 .col-main-menu ul li {
     display: inline-block;
     list-style: outside none none;
@@ -520,7 +523,7 @@ span.blog-date {
 }
 .product-content .product-title > h4 {
     color: #6d6d6d;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     margin: 0 0 8px;
     opacity:1;
@@ -534,7 +537,7 @@ span.blog-date {
     font-family: "Work Sans",sans-serif;
     margin: 0px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
 }
 .product-price-wrapper > span.product-price-old {
     text-decoration: line-through;
@@ -617,9 +620,31 @@ span.blog-date {
 .descripcion-producto{
     margin-top: 10%;
 }
+.title-producto{
+    font-family: var(--titulo);
+    font-size: 30px;
+}
+.precio-producto{
+    font-family: var(--titulo_producto);
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: 500;
+}
 .price-tachado{
     color: var(--tipografia_gris);
     text-decoration:line-through;
+}
+.text-producto{
+    font-family: var(--titulo);
+    font-size: 15px;
+    margin-right: 1%;
+    margin-bottom: 3%;
+}
+.size{
+    font-family: var(--titulo);
+    margin-bottom: 1%;
+    font-weight: 400;
 }
 .select-product{
     width: 60px;
@@ -632,6 +657,7 @@ span.blog-date {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
 .color{
+    font-family: var(--titulo);
     margin-bottom: 1%;
     font-weight: 400;
 }
@@ -667,6 +693,7 @@ span.blog-date {
     height: 30px;
     border: 1px solid gray;
     background: transparent;
+    font-family: var(--texto);
     text-align: center;
 }
 .btn-product{
@@ -677,12 +704,14 @@ span.blog-date {
     border: none;
     background-color: black;
     color: white;
+    font-family: var(--texto);
     font-weight: 600;
     cursor: pointer;
 }
 .stock{
     margin-top: 5%;
-    color: #484848;
+    font-family: var(--texto);
+    color: var(--tipografia_gris);
 }
 @media (max-width: 800px){
     .modalmask {
