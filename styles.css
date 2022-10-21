@@ -144,6 +144,11 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.row-seven {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 5%;
 }
 .product-wrapper {
