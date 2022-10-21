@@ -8,14 +8,14 @@
     </head>
     <body>
         <header>
-            <div class= "header-area">
+            <div class="header-area">
                 <div class="row-one">
                     <div class="col-main-menu">
                         <ul>
-                            <li><a>home</a></li>
+                            <li><a href="index.html">home</a></li>
                             <li><a>about</a></li>
                             <li><a>blog</a></li>
-                            <li><a>pages</a></li>
+                            <li><a href="product.html">pages</a></li>
                             <li><a>contact</a></li>
                         </ul>
                     </div>
@@ -30,6 +30,12 @@
                                 <span>USD</span>
                                 <i class="fa-solid fa-chevron-down"></i>
                                 <i class="fa-solid fa-cart-shopping cart"></i>
+                            </div>
+                            <div class="header-currency-mobile">
+                                <span>USD</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <i class="fa-solid fa-cart-shopping cart"></i>
+                                <i class="fa-solid fa-bars"></i>
                             </div>
                         </div>
                     </div>
@@ -52,14 +58,14 @@
 			<div class="container-one">
 				<div class="row-two">
                     <div class="single-banner">
-                        <img src="img/banner-1.png" alt="Banner pequeño hojas de té matcha">
+                        <img class="img-banner" src="img/banner-1.png" alt="Banner pequeño hojas de té matcha">
                         <div class="banner-content">
                             <h4>-50% Sale</h4>
                             <h5>Summer Vacation</h5>
                         </div>
                     </div>
                     <div class="single-banner">
-                        <img src="img/banner-2.png" alt="Banner pequeño hojas de té matcha">
+                        <img class="img-banner" src="img/banner-2.png" alt="Banner pequeño hojas de té matcha">
                         <div class="banner-content">
                             <h4>-20% Sale</h4>
                             <h5>Winter Vacation</h5>
@@ -163,7 +169,7 @@
 					<div class="row-three">
                         <div class="product-wrapper">
                             <div class="product-img">
-                                <img alt="BeBe Bloom tea" src="img/product-1.jpg">
+                                <a href="#pop-up"><img alt="BeBe Bloom tea" src="img/product-1.jpg"></a>
                                 <span>-30%</span>
                             </div>
                             <div class="product-content text-left">
@@ -178,7 +184,7 @@
                         </div>
                         <div class="product-wrapper">
                             <div class="product-img">
-                                <img alt="Every spice Tea" src="img/product-2.jpg">
+                                <a href="#pop-up"><img alt="Every spice Tea" src="img/product-2.jpg"></a>
                                 <span>-50%</span>
                             </div>
                             <div class="product-content text-left">
@@ -193,7 +199,7 @@
                         </div>
                         <div class="product-wrapper">
                             <div class="product-img">
-                                <img alt="Que herbal Tea" src="img/product-3.jpg">
+                                <a href="#pop-up"><img alt="Que herbal Tea" src="img/product-3.jpg"></a>
                                 <span>-60%</span>
                             </div>
                             <div class="product-content text-left">
@@ -208,7 +214,7 @@
                         </div>
                         <div class="product-wrapper">
                             <div class="product-img">
-                                <img alt="Tea and Chai" src="img/product-4.jpg">
+                                <a href="#pop-up"><img alt="Tea and Chai" src="img/product-4.jpg"></a>
                             </div>
                             <div class="product-content text-left">
                                 <div class="product-title">
@@ -222,7 +228,7 @@
                         </div>
                         <div class="product-wrapper">
                             <div class="product-img">
-                                <img alt="Society Ice Tea" src="img/product-5.jpg">
+                                <a href="#pop-up"><img alt="Society Ice Tea" src="img/product-5.jpg"></a>
                             </div>
                             <div class="product-content text-left">
                                 <div class="product-title">
@@ -236,7 +242,7 @@
                         </div>
                         <div class="product-wrapper">
                             <div class="product-img">
-                                <img alt="Green Tea Tulsi" src="img/product-6.jpg">
+                                <a href="#pop-up"><img alt="Green Tea Tulsi" src="img/product-6.jpg"></a>
                                 <span>-40%</span>
                             </div>
                             <div class="product-content text-left">
@@ -251,7 +257,7 @@
                         </div>
                         <div class="product-wrapper">
                             <div class="product-img">
-                                <img alt="Best Friends Tea" src="img/product-7.jpg">
+                                <a href="#pop-up"><img alt="Best Friends Tea" src="img/product-7.jpg"></a>
                                 <span>-60%</span>
                             </div>
                             <div class="product-content text-left">
@@ -266,7 +272,7 @@
                         </div>
                         <div class="product-wrapper">
                             <div class="product-img">
-                                <img alt="Instant Tea Premix" src="img/product-8.jpg">
+                                <a href="#pop-up"><img alt="Instant Tea Premix" src="img/product-8.jpg"></a>
                             </div>
                             <div class="product-content text-left">
                                 <div class="product-title">
@@ -282,6 +288,47 @@
                 </div>
             </div>
 			<!-- Fin "New Products" -->
+            <!-- Inicio Pop-Up -->
+            <div id="pop-up" class="modalmask">
+                <div class="modalbox movedown">
+                    <a href="#close" title="Close" class="close"><i class="fa-solid fa-xmark"></i></a>
+                    <div class="contenido-producto">
+                        <div class="image-producto">
+                            <img src="img/product-detalis-l1.jpg" class="img-product" alt="">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h1>Dutchman's Breeches</h1>
+                            <div class="product-price-wrapper">
+                                <span class="product-price-old">$162.00 </span>
+                                <span> $120.00</span>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam placeat voluptate repellendus repudiandae laboriosam facilis ex consectetur. Omnis, temporibus, ut quasi doloribus accusantium aspernatur incidunt laborum quos saepe
+                                esse voluptate!
+                            </p>
+                            <h3>Size*</h3>
+                            <select name="" id="" class="select-product">
+                                <option value="S">S</option>
+                                <option value="X">X</option>
+                                <option value="L">L</option>
+                                <option value="M">M</option>
+                            </select>
+                            <div class="color"><h3>Color*</h3></div>
+                            <div class="input-color1"></div>
+                            <div class="input-color2"></div>
+                            <div class="input-color3"></div>
+                            <div class="cantidad">
+                                <input type="number" min="1" max="10" class="input-cantidad" value="1">
+                                <button class="btn-product">ADD TO CART</button>
+                            </div>
+                            <div class="stock">
+                                <h3><i class="fa-solid fa-check"></i> In stock</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Pop-Up -->
             <!-- Inicio Suscripción -->
 			<div class="newsletter-area bg-image-2">
 				<div class="container">
