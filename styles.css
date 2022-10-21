@@ -146,6 +146,12 @@ p {
     justify-content: center;
     gap: 5%;
 }
+.row-seven {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
 .product-wrapper {
     width: 17%;
     margin-right: 30px;
