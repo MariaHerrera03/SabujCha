@@ -143,6 +143,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1%
 }
 .product-wrapper {
     width: 17%;
