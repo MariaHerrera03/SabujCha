@@ -51,6 +51,7 @@ ul {
     padding: 0px;
 }
 a {
+    font-size: 16px;
     text-decoration: none;
 }
 p {
@@ -137,8 +138,7 @@ p {
 }
 .container-two {
     padding: 90px 15px 70px 15px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin: 0 auto;
 }
 .row-three {
     display: flex;
@@ -188,7 +188,7 @@ p {
     margin-left: auto;
 }
 .blog-post{
-    width: 350px;
+    width: 200px;
     margin-right: 40px;
     margin-left: 40px;
 }
@@ -233,7 +233,7 @@ span.blog-date {
         margin: 0 auto;
     }
     .blog-img {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
     .blog-thumb {
@@ -516,7 +516,7 @@ span.blog-date {
 }
 .product-content .product-title > h4 {
     color: #6d6d6d;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     margin: 0 0 8px;
     opacity:1;
@@ -530,7 +530,7 @@ span.blog-date {
     font-family: "Work Sans",sans-serif;
     margin: 0px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
 }
 .product-price-wrapper > span.product-price-old {
     text-decoration: line-through;
